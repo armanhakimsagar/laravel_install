@@ -43,9 +43,25 @@ Installation rules :
 -> hit localhost/projectname/public
 
 
--> cut .htacess file from public and paste 
+->  localhost :
+
+    * cut .htacess file from public and paste 
   
-   into root & make server.php to index.php
+    * into root & make server.php to index.php
+
+    live server :
+
+    * move public into root.
+
+    * index.php
+
+      require __DIR__.'/../project_name/vendor/autoload.php'; 
+
+      $app = require_once __DIR__.'/../project_name/bootstrap/app.php';
+
+    * update php version
+
+
 
 
 -> laravel new blog (for new project)
