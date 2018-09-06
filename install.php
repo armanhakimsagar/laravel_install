@@ -2,6 +2,10 @@ Command line :
 
 * composer         (for check)
 
+* composer update : download lastest versions of available packages based on composer.json
+
+* composer dump-autoload : regenerates the list of all classes
+
 * shift + right click for cmd open
 
 * cd C:\xampp\htdocs     (Change directory same driver: 
